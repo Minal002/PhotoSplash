@@ -13,7 +13,7 @@ export default defineConfig({
       '@pages': fileURLToPath(new URL('./src/pages', import.meta.url)),
       '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
       '@recoil': fileURLToPath(new URL('./src/recoil', import.meta.url)),
-      '@apos': fileURLToPath(new URL('./src/apis', import.meta.url)),
+      '@apis': fileURLToPath(new URL('./src/apis', import.meta.url)),
     },
   },
   // SCSS 전역 사용

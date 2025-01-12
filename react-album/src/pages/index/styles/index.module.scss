@@ -1,0 +1,25 @@
+$HEADER-HEIGHT: 50px;
+$FOOTER-HEIGHT: 50px;
+$NAVIGATION-HEIGHT: 50px;
+
+// 최상단 클래스
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 100vh; // 디바이스 view height
+
+    // &는 현재 선택자(.page)를 참조하는 scss 문법
+    &__contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        width: 100%;
+        height: calc();
+    }
+}
